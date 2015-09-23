@@ -1,0 +1,6 @@
+service:
+  image: bonnlei/express
+  volumes:
+    - .:/src
+  ports:
+    - "3010:3010"

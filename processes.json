@@ -1,0 +1,18 @@
+{
+  "apps": [
+    {
+      // Application #1
+      "name": "docker-express",
+      "script": "index.js",
+      "watch": true,
+      "watch_options": {
+        "usePolling": true
+      },
+      "merge_logs": true,
+      "cwd": "/src",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
