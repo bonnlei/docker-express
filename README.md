@@ -46,8 +46,12 @@ Run `docker-osx-dev` in the project path and run the following command in other 
 You can use **Kitematic**  start and stop container and config ports and sync folders. You change `index.js` and check if something changed. 
 
 ### 7. Put image to **Docker Hub**
+After Creating a new repository on Docker Hub, you do
+
 ```bash      
- $ docker lof 
+ $ docker login -u user -p password
+ $ docker tag bonnlei/express bonnlei/express:1.0 
+ $ docker push bonnlei/express:1.0
 ```
       
 ## References
